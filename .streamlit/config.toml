@@ -1,0 +1,14 @@
+[theme]
+base="dark"  # or "light" depending on your preference
+
+[server]
+enableCORS = false
+
+[global]
+showWarningOnDirectExecution = false
+
+[browser]
+gatherUsageStats = false
+
+[ui]
+hideMenuItems = ["fork", "github"]
