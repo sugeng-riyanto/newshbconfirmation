@@ -224,6 +224,7 @@ def show_success_page():
 # Admin page
 def show_admin_page():
     st.sidebar.title("Admin Login")
+    st.write("Here is for school admin only. Regards.")
     admin_username = st.sidebar.text_input("Username")
     admin_password = st.sidebar.text_input("Password", type="password")
 
